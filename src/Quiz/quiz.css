@@ -1,0 +1,59 @@
+.App {
+    display: flex;
+}
+.titleQuiz{
+    text-align: center;
+    flex-direction: column;
+}
+.cardAsk {
+    width: 52vw;
+    margin: 0.3vh 10vw;
+    padding: 1vh 1vw;
+    background-color: #73A9AD;
+    border-radius: 10px;
+  
+}
+.answer {
+    display: flex;
+}
+.listAnswer {
+    list-style: none;
+}
+.boxRight{
+    display: flex;
+    flex-direction: column;
+}
+.btnSubmit {
+  margin: 15vh 0 2vh 0;
+  border: none;
+  width: 10vw;
+  height: 20vh;
+  padding: 10px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #73A9AD;
+  font-size: 3.5vh;
+}
+.btnSubmit:hover{
+    background-color:#B3C890;
+}
+.score{
+    height: 2.5vh;
+    width: 11vw;
+    text-align: center;
+}
+.linkOtherQuiz{
+    height: 10vh;
+    width: 15vw;
+    text-align: center;
+    margin: 45vh 0 0 0;
+}
+.textLink{
+    text-decoration: none;
+    color: black;
+}
+.textLink:hover{
+    color: #73A9AD;
+}
+
+
